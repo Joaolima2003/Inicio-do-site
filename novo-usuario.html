@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novo Usuário</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1><hr> Registros <hr></h1>
-    <form class="newUsers skipLine">
-        <label for="newEmail">Email:</label>
-        <input type="text" id="newEmail" name="newEmail" required > 
-        
-        <label for="NewPassword">newPassword:</label>
-        <input  type="password" id="newPassword" name="newPassword" required minlength="8">
-        
-        <label for="confirmPassword">confirmPassword:</label>
-        <input type="password" id="confirmPassword" name="confirmPassword" required>
-        
-        <button type="submit">Registrar</button>
-        <button type="reset">Limpar</button>
+    <form>
+        <h1>Registro</h1>
+        <div class="container">
+            <div class="items">
+                <label for="newEmail">Email:</label>
+                <input type="text" id="newEmail" name="newEmail" required>
+            </div>
+            <div class="items">
+                <label for="NewPassword">newPassword:</label>
+                <input type="password" id="newPassword" name="newPassword" required minlength="8">
+            </div>
+            <div class="items">
+                <label for="confirmPassword">confirmPassword:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <button type="submit">Registrar</button>
+            <button type="reset">Limpar</button>
+        </div>
     </form>
 </body>
+
 </html>

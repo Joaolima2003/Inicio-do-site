@@ -1,0 +1,16 @@
+.d-line{
+    display: inline;
+    background-color: red;
+}
+
+.d-block{
+    display: block;
+    margin-bottom: 5px;
+    background-color: red;
+}
+
+.inline-block{
+    display: inline-block;
+    margin-bottom: 5px;
+    background-color: red;
+}
