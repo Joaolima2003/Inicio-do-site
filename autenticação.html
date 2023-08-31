@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autenticação</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="autentication.css">
 </head>
+
 <body>
-        <h1> <hr> Registro e Autenticação de Usuarios<hr></h1>
-        <h2>Autenticação</h2>
-        <form class="skipLine">
-        <label for="Email">Email</label>
-        <input type="text" id="Email" name="Email" required>
-       
-        <label for="Password">Password</label>
-        <input type="password" id="Password" name="PassWord" required minlength="8">
-        
-        <button type="submit">Join</button>
+    <form>
+        <div class="container">
+            <div class="items">
+                <label for="email">
+                    Email
+                </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="items">
+                <label for="password">
+                    Password
+                </label>
+                <input type="password" id="password" name="password" minlength="8" required>
+            </div>
+            <button class="button" type="submit">Join</button>
+            <p>Não possui uma conta? <a href="novo-usuario.html" target="_blank">Crie uma aqui</a></p>
+        </div>
     </form>
-    <p>Não possui uma conta? <a href="novo-usuario.html">Crie uma aqui</a></p>
+
 </body>
+
 </html>
